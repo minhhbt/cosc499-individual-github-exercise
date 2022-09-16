@@ -1,1 +1,1 @@
-# COSC499 - Individual Github Exercise 
+# Individual Github Exercise - Minh Bui
