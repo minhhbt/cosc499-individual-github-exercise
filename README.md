@@ -1,1 +1,1 @@
-# ubco-W2022T1-cosc499-individualgitexercisehubexercise-minhhbt
+# COSC499 - Individual Github Exercise - Minh Bui
