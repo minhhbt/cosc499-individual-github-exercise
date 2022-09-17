@@ -19,8 +19,7 @@ public class feature1 {
         }
 
         sortArray(str);
-        System.out.println("Hello world");
-                
+        //test
         
     }
 
