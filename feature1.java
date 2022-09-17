@@ -1,7 +1,7 @@
 //Feature 1 - Sort an array in alphabetical order
-import java.util.Arrays;  
-import java.util.Scanner;
 import java.util.*;
+import static org.junit.Assert.assertArrayEquals;
+import org.junit.Test;
 
 public class feature1 {
     public static void main(String args[]) {  
@@ -17,9 +17,21 @@ public class feature1 {
         for(int i = 0; i < arraySize ;i++) {
             str[i] = sc1.nextLine();
         }
+
+        sortArray(str);
                 
-        //Arrays.sort(str); //Sort in ascending order
-        Arrays.sort(str,Collections.reverseOrder()); //Sort in descending order
-        System.out.println(Arrays.toString(str)); 
-    } 
+        
+    }
+
+    public static String[] sortArray(String[] preSortedArray){
+        Arrays.sort(preSortedArray); //Sort in ascending order
+        //Arrays.sort(preSortedArray,Collections.reverseOrder()); //Sort in descending order
+        System.out.println(Arrays.toString(preSortedArray)); 
+        return preSortedArray; 
+    }
+
+    @Test
+    public void testSortArray(){
+        assertArrayEquals(new String[]{"Banana","Cherry","Grape","Honeydew","Lemon"} , sortArray(new String[]{"Grape","Honeydew","Lemon","Cherry","Banana"}));
+    }
 }
