@@ -4,7 +4,7 @@
 1. There are main branches in the repo.
     - feature1---Sort-Aray
     - feature2---Math-Operation
-    - main: the files from the two feature branches are merged into main
+    - main: the files from the two feature branches are merged into main.
 
 ## Features
 1. For the feature1 branch, the program will take in integers and sort them in ascending order.
