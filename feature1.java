@@ -27,6 +27,7 @@ public class feature1 {
         Arrays.sort(preSortedArray); //Sort in ascending order
         //Arrays.sort(preSortedArray,Collections.reverseOrder()); //Sort in descending order
         System.out.println(Arrays.toString(preSortedArray)); 
+        System.out.println("Hello world");
         return preSortedArray; 
     }
 
